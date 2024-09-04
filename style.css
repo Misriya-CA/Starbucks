@@ -1,0 +1,307 @@
+body{
+    margin :0;
+    font-family: var(--typefacePrimary);
+}
+.header{
+    height:95px;
+    background-color:#ffff ;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.logo-container{
+    height:60px;
+    width: 79px;
+    padding-top: 5px;
+    padding-left: 15px;
+
+
+    
+}
+.logo{
+    height:60px;
+    width: 100%;
+    background-image: url("starbucks-logo.png");
+    background-size: cover;
+    color:#ffff;
+    
+}
+.menu{
+    padding-left: 5px;
+}
+
+.options p{
+    display:inline-block;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    font-weight: 1000;
+}
+
+
+
+.space{
+    width:30%;
+}
+
+    
+.address{
+    display:inline-block;
+}
+.add-first{
+    margin-left: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+    
+}
+.icon-location{
+    margin-left: 10px;
+}
+
+
+
+
+    
+#sign::placeholder{
+    color: black;
+    border-color: black;
+    
+    
+}
+.sign-arrangement{
+    height: 25px;
+    width: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    padding-left: 15px;
+    
+    margin-right: 10px;
+    background-color: #ffff;
+    
+
+    
+    
+}
+#join::placeholder{
+    color:#ffff;
+}
+
+.join-arrangement{
+    height: 25px;
+    width: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    
+    padding-left: 17px;
+
+    background-color: black;
+
+}
+input::placeholder{
+    font-weight: 700;
+}
+header{
+    border-bottom: 0.5px solid #e8e6e6;
+    
+}
+
+/** main section **/
+
+.box1{
+    height:500px;
+    background-color: darkgreen;
+    width:50%;
+    display:flex;
+    float:left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+    
+    
+    
+    
+}
+.box2{
+    height:500px;
+    width:50%;
+    background-color:darkgreen;
+    float:left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+    
+}
+.box3{
+    height:500px;
+    width:50%;
+    background-color: #a12b3d;
+    float:left;
+    margin-bottom: 50px;
+}
+.box4{
+    height:500px;
+    width:50%;
+    background-color: #a12b3d;
+    float:left;
+    margin-bottom: 50px;
+}
+.box-image{
+    width:100%;
+    height:500px;
+}
+.inner-box{
+    height:350px;
+    width:70%;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-left: 65px;
+    margin-right:40px;
+    
+    margin-bottom: 50px;
+    background-color:darkgreen;
+    align-items: center;
+
+}
+.inner-box1 {
+    height:100px;
+    width: 400px;
+    background-color: darkgreen;
+    margin-left:10px;
+    margin-top: 80px;
+    
+    color:#ffff;
+
+    
+    
+}
+.h1{
+    padding-top:30px;
+    font-size: 50px;
+}
+.inner-box2 {
+    height:200px;
+    width:400px;
+    background-color: darkgreen;
+    margin-left: 10px;
+    color: #fff;
+    
+    
+    
+
+}
+.placeholder1{
+    margin-left: 100px;
+    height:25px;
+    width:180px;
+    padding-left:25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: darkgreen;
+    border-color: #ffff;
+
+    
+}
+input::placeholder{
+    font-weight: 700;
+}
+
+#place-color::placeholder{
+    color: #ffff;
+    background-color: darkgreen;
+}
+.inner-box4{
+    height:350px;
+    width:70%;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-left: 65px;
+    margin-right:40px;
+    
+    margin-bottom: 50px;
+    background-color: #a12b3d;
+    align-items: center;
+}
+.inner-box5 {
+    height:100px;
+    width: 400px;
+    background-color: #a12b3d;
+    margin-left:10px;
+    margin-top: 80px;
+    
+    color:#ffff;
+}
+
+.inner-box6 {
+    height:200px;
+    width:400px;
+    background-color: #a12b3d;
+    margin-left: 10px;
+    color: #fff;
+
+        
+}
+.placeholder2{
+    margin-left: 100px;
+    height:25px;
+    width:90px;
+    padding-left:25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #a12b3d;
+    border-color: #ffff;
+
+    
+}
+
+.panel1{
+    margin-top:50px ;
+    width:100%;
+    height:600px;
+    
+
+}
+#place-color1::placeholder{
+    color: #ffff;
+    background-color: #a12b3d;
+}
+
+    
+    
+/** footer **/
+footer{
+    margin-top: 15px;
+    
+}
+.foot-panel1{
+    width:100%;
+    height:400px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    font-weight: 550;
+    font-size: 17px;
+}
+ul{
+    margin-top: 15px;
+}
+ul a{
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #757474;
+}
+
+
+    
